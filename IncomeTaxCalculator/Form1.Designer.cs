@@ -39,8 +39,33 @@
             this.CloseButton = new System.Windows.Forms.Button();
             this.panelFloatBar = new System.Windows.Forms.Panel();
             this.panelHome = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.panelTaxProfille = new System.Windows.Forms.Panel();
+            this.panelIncomeAndExpense = new System.Windows.Forms.Panel();
+            this.tabControlIncomeDetails = new System.Windows.Forms.TabControl();
+            this.tabPageSalaryIncome = new System.Windows.Forms.TabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBoxLTCG10 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxLTS15 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBoxSTGNM = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBoxProfession = new System.Windows.Forms.TextBox();
+            this.labelProfession = new System.Windows.Forms.Label();
+            this.textBoxBusiness = new System.Windows.Forms.TextBox();
+            this.labelBusiness = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.labelOtherAllowances = new System.Windows.Forms.Label();
+            this.labelBasicDA = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxBasicDA = new System.Windows.Forms.TextBox();
+            this.labelBonusCommision = new System.Windows.Forms.Label();
+            this.labelHRA = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.buttonSubmit = new System.Windows.Forms.Button();
             this.panelDOB = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.labelDOB = new System.Windows.Forms.Label();
@@ -57,46 +82,22 @@
             this.radioButtonSalariedNo = new System.Windows.Forms.RadioButton();
             this.radioButtonSalariedYes = new System.Windows.Forms.RadioButton();
             this.labelSalaried = new System.Windows.Forms.Label();
-            this.buttonSubmit = new System.Windows.Forms.Button();
-            this.panelIncomeAndExpense = new System.Windows.Forms.Panel();
-            this.tabControlIncomeDetails = new System.Windows.Forms.TabControl();
-            this.tabPageSalaryIncome = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.labelBasicDA = new System.Windows.Forms.Label();
-            this.textBoxBasicDA = new System.Windows.Forms.TextBox();
-            this.labelHRA = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.labelBonusCommision = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.labelOtherAllowances = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.labelBusiness = new System.Windows.Forms.Label();
-            this.textBoxBusiness = new System.Windows.Forms.TextBox();
-            this.labelProfession = new System.Windows.Forms.Label();
-            this.textBoxProfession = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBoxSTGNM = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBoxLTS15 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBoxLTCG10 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonCalculateTax = new System.Windows.Forms.Button();
             this.PanelSideNav.SuspendLayout();
             this.SideNavIncomeTaxPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IncomeTaxImageBox)).BeginInit();
             this.MenuNavBarPanel.SuspendLayout();
             this.panelHome.SuspendLayout();
             this.panelTaxProfille.SuspendLayout();
-            this.panelDOB.SuspendLayout();
-            this.panelGender.SuspendLayout();
-            this.panelMetro.SuspendLayout();
-            this.panelSalaried.SuspendLayout();
             this.panelIncomeAndExpense.SuspendLayout();
             this.tabControlIncomeDetails.SuspendLayout();
             this.tabPageSalaryIncome.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panelDOB.SuspendLayout();
+            this.panelGender.SuspendLayout();
+            this.panelMetro.SuspendLayout();
+            this.panelSalaried.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelSideNav
@@ -223,15 +224,6 @@
             this.panelHome.Size = new System.Drawing.Size(839, 670);
             this.panelHome.TabIndex = 3;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(304, 255);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 97);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Home panel";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // panelTaxProfille
             // 
             this.panelTaxProfille.Controls.Add(this.panelIncomeAndExpense);
@@ -244,6 +236,253 @@
             this.panelTaxProfille.Name = "panelTaxProfille";
             this.panelTaxProfille.Size = new System.Drawing.Size(833, 664);
             this.panelTaxProfille.TabIndex = 1;
+            // 
+            // panelIncomeAndExpense
+            // 
+            this.panelIncomeAndExpense.Controls.Add(this.buttonCalculateTax);
+            this.panelIncomeAndExpense.Controls.Add(this.tabControlIncomeDetails);
+            this.panelIncomeAndExpense.Location = new System.Drawing.Point(3, 3);
+            this.panelIncomeAndExpense.Name = "panelIncomeAndExpense";
+            this.panelIncomeAndExpense.Size = new System.Drawing.Size(833, 664);
+            this.panelIncomeAndExpense.TabIndex = 3;
+            // 
+            // tabControlIncomeDetails
+            // 
+            this.tabControlIncomeDetails.Controls.Add(this.tabPageSalaryIncome);
+            this.tabControlIncomeDetails.Controls.Add(this.tabPage2);
+            this.tabControlIncomeDetails.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControlIncomeDetails.Location = new System.Drawing.Point(184, 115);
+            this.tabControlIncomeDetails.Name = "tabControlIncomeDetails";
+            this.tabControlIncomeDetails.SelectedIndex = 0;
+            this.tabControlIncomeDetails.Size = new System.Drawing.Size(492, 498);
+            this.tabControlIncomeDetails.TabIndex = 1;
+            // 
+            // tabPageSalaryIncome
+            // 
+            this.tabPageSalaryIncome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.tabPageSalaryIncome.Controls.Add(this.panel1);
+            this.tabPageSalaryIncome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPageSalaryIncome.Location = new System.Drawing.Point(4, 30);
+            this.tabPageSalaryIncome.Name = "tabPageSalaryIncome";
+            this.tabPageSalaryIncome.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageSalaryIncome.Size = new System.Drawing.Size(484, 464);
+            this.tabPageSalaryIncome.TabIndex = 0;
+            this.tabPageSalaryIncome.Text = "Salary & Income";
+            // 
+            // panel1
+            // 
+            this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.textBoxLTCG10);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.textBoxLTS15);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.textBoxSTGNM);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.textBoxProfession);
+            this.panel1.Controls.Add(this.labelProfession);
+            this.panel1.Controls.Add(this.textBoxBusiness);
+            this.panel1.Controls.Add(this.labelBusiness);
+            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.labelOtherAllowances);
+            this.panel1.Controls.Add(this.labelBasicDA);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.textBoxBasicDA);
+            this.panel1.Controls.Add(this.labelBonusCommision);
+            this.panel1.Controls.Add(this.labelHRA);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Location = new System.Drawing.Point(17, 13);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(464, 445);
+            this.panel1.TabIndex = 2;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(113, 600);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(265, 27);
+            this.textBox4.TabIndex = 19;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(20, 613);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(321, 20);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "Long Term Capital Gain - Taxable @ 10%";
+            // 
+            // textBoxLTCG10
+            // 
+            this.textBoxLTCG10.Location = new System.Drawing.Point(24, 567);
+            this.textBoxLTCG10.Name = "textBoxLTCG10";
+            this.textBoxLTCG10.Size = new System.Drawing.Size(265, 27);
+            this.textBoxLTCG10.TabIndex = 17;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 541);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(321, 20);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Long Term Capital Gain - Taxable @ 10%";
+            // 
+            // textBoxLTS15
+            // 
+            this.textBoxLTS15.Location = new System.Drawing.Point(24, 496);
+            this.textBoxLTS15.Name = "textBoxLTS15";
+            this.textBoxLTS15.Size = new System.Drawing.Size(265, 27);
+            this.textBoxLTS15.TabIndex = 15;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(21, 470);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(324, 20);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Short Term Capital Gain - Taxable @ 15%";
+            // 
+            // textBoxSTGNM
+            // 
+            this.textBoxSTGNM.Location = new System.Drawing.Point(25, 422);
+            this.textBoxSTGNM.Name = "textBoxSTGNM";
+            this.textBoxSTGNM.Size = new System.Drawing.Size(265, 27);
+            this.textBoxSTGNM.TabIndex = 13;
+            this.textBoxSTGNM.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(21, 401);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(399, 20);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Short Term Captal Gains (Taxable At Normal Rates)";
+            // 
+            // textBoxProfession
+            // 
+            this.textBoxProfession.Location = new System.Drawing.Point(24, 354);
+            this.textBoxProfession.Name = "textBoxProfession";
+            this.textBoxProfession.Size = new System.Drawing.Size(265, 27);
+            this.textBoxProfession.TabIndex = 11;
+            // 
+            // labelProfession
+            // 
+            this.labelProfession.AutoSize = true;
+            this.labelProfession.Location = new System.Drawing.Point(21, 331);
+            this.labelProfession.Name = "labelProfession";
+            this.labelProfession.Size = new System.Drawing.Size(89, 20);
+            this.labelProfession.TabIndex = 10;
+            this.labelProfession.Text = "Profession";
+            // 
+            // textBoxBusiness
+            // 
+            this.textBoxBusiness.Location = new System.Drawing.Point(24, 283);
+            this.textBoxBusiness.Name = "textBoxBusiness";
+            this.textBoxBusiness.Size = new System.Drawing.Size(265, 27);
+            this.textBoxBusiness.TabIndex = 9;
+            // 
+            // labelBusiness
+            // 
+            this.labelBusiness.AutoSize = true;
+            this.labelBusiness.Location = new System.Drawing.Point(20, 260);
+            this.labelBusiness.Name = "labelBusiness";
+            this.labelBusiness.Size = new System.Drawing.Size(79, 20);
+            this.labelBusiness.TabIndex = 8;
+            this.labelBusiness.Text = "Business";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(24, 222);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(265, 27);
+            this.textBox3.TabIndex = 7;
+            // 
+            // labelOtherAllowances
+            // 
+            this.labelOtherAllowances.AutoSize = true;
+            this.labelOtherAllowances.Location = new System.Drawing.Point(20, 199);
+            this.labelOtherAllowances.Name = "labelOtherAllowances";
+            this.labelOtherAllowances.Size = new System.Drawing.Size(141, 20);
+            this.labelOtherAllowances.TabIndex = 6;
+            this.labelOtherAllowances.Text = "Other Allowances";
+            // 
+            // labelBasicDA
+            // 
+            this.labelBasicDA.AutoSize = true;
+            this.labelBasicDA.Location = new System.Drawing.Point(20, 10);
+            this.labelBasicDA.Name = "labelBasicDA";
+            this.labelBasicDA.Size = new System.Drawing.Size(96, 20);
+            this.labelBasicDA.TabIndex = 0;
+            this.labelBasicDA.Text = "Basic + DA";
+            this.labelBasicDA.Click += new System.EventHandler(this.labelBasicDA_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(24, 158);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(265, 27);
+            this.textBox2.TabIndex = 5;
+            // 
+            // textBoxBasicDA
+            // 
+            this.textBoxBasicDA.Location = new System.Drawing.Point(25, 30);
+            this.textBoxBasicDA.Name = "textBoxBasicDA";
+            this.textBoxBasicDA.Size = new System.Drawing.Size(265, 27);
+            this.textBoxBasicDA.TabIndex = 1;
+            // 
+            // labelBonusCommision
+            // 
+            this.labelBonusCommision.AutoSize = true;
+            this.labelBonusCommision.Location = new System.Drawing.Point(21, 135);
+            this.labelBonusCommision.Name = "labelBonusCommision";
+            this.labelBonusCommision.Size = new System.Drawing.Size(150, 20);
+            this.labelBonusCommision.TabIndex = 4;
+            this.labelBonusCommision.Text = "Bonus, Commision";
+            // 
+            // labelHRA
+            // 
+            this.labelHRA.AutoSize = true;
+            this.labelHRA.Location = new System.Drawing.Point(20, 69);
+            this.labelHRA.Name = "labelHRA";
+            this.labelHRA.Size = new System.Drawing.Size(227, 20);
+            this.labelHRA.TabIndex = 2;
+            this.labelHRA.Text = "HRA(House Rent Allowance)";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(25, 92);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(265, 27);
+            this.textBox1.TabIndex = 3;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.tabPage2.Location = new System.Drawing.Point(4, 30);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(484, 464);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Excemptions & Deduction";
+            // 
+            // buttonSubmit
+            // 
+            this.buttonSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.buttonSubmit.FlatAppearance.BorderSize = 0;
+            this.buttonSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonSubmit.ForeColor = System.Drawing.Color.Black;
+            this.buttonSubmit.Location = new System.Drawing.Point(363, 464);
+            this.buttonSubmit.Name = "buttonSubmit";
+            this.buttonSubmit.Size = new System.Drawing.Size(102, 46);
+            this.buttonSubmit.TabIndex = 8;
+            this.buttonSubmit.Text = "Submit";
+            this.buttonSubmit.UseVisualStyleBackColor = false;
+            this.buttonSubmit.Click += new System.EventHandler(this.buttonSubmit_Click);
             // 
             // panelDOB
             // 
@@ -432,251 +671,24 @@
             this.labelSalaried.TabIndex = 0;
             this.labelSalaried.Text = "Salaried ?";
             // 
-            // buttonSubmit
+            // button1
             // 
-            this.buttonSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.buttonSubmit.FlatAppearance.BorderSize = 0;
-            this.buttonSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonSubmit.ForeColor = System.Drawing.Color.Black;
-            this.buttonSubmit.Location = new System.Drawing.Point(363, 464);
-            this.buttonSubmit.Name = "buttonSubmit";
-            this.buttonSubmit.Size = new System.Drawing.Size(102, 46);
-            this.buttonSubmit.TabIndex = 8;
-            this.buttonSubmit.Text = "Submit";
-            this.buttonSubmit.UseVisualStyleBackColor = false;
-            this.buttonSubmit.Click += new System.EventHandler(this.buttonSubmit_Click);
+            this.button1.Location = new System.Drawing.Point(304, 255);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(188, 97);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Home panel";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // panelIncomeAndExpense
+            // buttonCalculateTax
             // 
-            this.panelIncomeAndExpense.Controls.Add(this.tabControlIncomeDetails);
-            this.panelIncomeAndExpense.Location = new System.Drawing.Point(3, 3);
-            this.panelIncomeAndExpense.Name = "panelIncomeAndExpense";
-            this.panelIncomeAndExpense.Size = new System.Drawing.Size(833, 664);
-            this.panelIncomeAndExpense.TabIndex = 3;
-            // 
-            // tabControlIncomeDetails
-            // 
-            this.tabControlIncomeDetails.Controls.Add(this.tabPageSalaryIncome);
-            this.tabControlIncomeDetails.Controls.Add(this.tabPage2);
-            this.tabControlIncomeDetails.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControlIncomeDetails.Location = new System.Drawing.Point(195, 144);
-            this.tabControlIncomeDetails.Name = "tabControlIncomeDetails";
-            this.tabControlIncomeDetails.SelectedIndex = 0;
-            this.tabControlIncomeDetails.Size = new System.Drawing.Size(492, 498);
-            this.tabControlIncomeDetails.TabIndex = 1;
-            // 
-            // tabPageSalaryIncome
-            // 
-            this.tabPageSalaryIncome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.tabPageSalaryIncome.Controls.Add(this.panel1);
-            this.tabPageSalaryIncome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPageSalaryIncome.Location = new System.Drawing.Point(4, 30);
-            this.tabPageSalaryIncome.Name = "tabPageSalaryIncome";
-            this.tabPageSalaryIncome.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageSalaryIncome.Size = new System.Drawing.Size(484, 464);
-            this.tabPageSalaryIncome.TabIndex = 0;
-            this.tabPageSalaryIncome.Text = "Salary & Income";
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.tabPage2.Location = new System.Drawing.Point(4, 30);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(484, 464);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Excemptions & Deduction";
-            // 
-            // labelBasicDA
-            // 
-            this.labelBasicDA.AutoSize = true;
-            this.labelBasicDA.Location = new System.Drawing.Point(20, 10);
-            this.labelBasicDA.Name = "labelBasicDA";
-            this.labelBasicDA.Size = new System.Drawing.Size(96, 20);
-            this.labelBasicDA.TabIndex = 0;
-            this.labelBasicDA.Text = "Basic + DA";
-            this.labelBasicDA.Click += new System.EventHandler(this.labelBasicDA_Click);
-            // 
-            // textBoxBasicDA
-            // 
-            this.textBoxBasicDA.Location = new System.Drawing.Point(25, 30);
-            this.textBoxBasicDA.Name = "textBoxBasicDA";
-            this.textBoxBasicDA.Size = new System.Drawing.Size(265, 27);
-            this.textBoxBasicDA.TabIndex = 1;
-            // 
-            // labelHRA
-            // 
-            this.labelHRA.AutoSize = true;
-            this.labelHRA.Location = new System.Drawing.Point(20, 69);
-            this.labelHRA.Name = "labelHRA";
-            this.labelHRA.Size = new System.Drawing.Size(227, 20);
-            this.labelHRA.TabIndex = 2;
-            this.labelHRA.Text = "HRA(House Rent Allowance)";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(25, 92);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(265, 27);
-            this.textBox1.TabIndex = 3;
-            // 
-            // labelBonusCommision
-            // 
-            this.labelBonusCommision.AutoSize = true;
-            this.labelBonusCommision.Location = new System.Drawing.Point(21, 135);
-            this.labelBonusCommision.Name = "labelBonusCommision";
-            this.labelBonusCommision.Size = new System.Drawing.Size(150, 20);
-            this.labelBonusCommision.TabIndex = 4;
-            this.labelBonusCommision.Text = "Bonus, Commision";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(24, 158);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(265, 27);
-            this.textBox2.TabIndex = 5;
-            // 
-            // panel1
-            // 
-            this.panel1.AutoScroll = true;
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.textBoxLTCG10);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBoxLTS15);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBoxSTGNM);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.textBoxProfession);
-            this.panel1.Controls.Add(this.labelProfession);
-            this.panel1.Controls.Add(this.textBoxBusiness);
-            this.panel1.Controls.Add(this.labelBusiness);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.labelOtherAllowances);
-            this.panel1.Controls.Add(this.labelBasicDA);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBoxBasicDA);
-            this.panel1.Controls.Add(this.labelBonusCommision);
-            this.panel1.Controls.Add(this.labelHRA);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Location = new System.Drawing.Point(17, 13);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(464, 445);
-            this.panel1.TabIndex = 2;
-            // 
-            // labelOtherAllowances
-            // 
-            this.labelOtherAllowances.AutoSize = true;
-            this.labelOtherAllowances.Location = new System.Drawing.Point(20, 199);
-            this.labelOtherAllowances.Name = "labelOtherAllowances";
-            this.labelOtherAllowances.Size = new System.Drawing.Size(141, 20);
-            this.labelOtherAllowances.TabIndex = 6;
-            this.labelOtherAllowances.Text = "Other Allowances";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(24, 222);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(265, 27);
-            this.textBox3.TabIndex = 7;
-            // 
-            // labelBusiness
-            // 
-            this.labelBusiness.AutoSize = true;
-            this.labelBusiness.Location = new System.Drawing.Point(20, 260);
-            this.labelBusiness.Name = "labelBusiness";
-            this.labelBusiness.Size = new System.Drawing.Size(79, 20);
-            this.labelBusiness.TabIndex = 8;
-            this.labelBusiness.Text = "Business";
-            // 
-            // textBoxBusiness
-            // 
-            this.textBoxBusiness.Location = new System.Drawing.Point(24, 283);
-            this.textBoxBusiness.Name = "textBoxBusiness";
-            this.textBoxBusiness.Size = new System.Drawing.Size(265, 27);
-            this.textBoxBusiness.TabIndex = 9;
-            // 
-            // labelProfession
-            // 
-            this.labelProfession.AutoSize = true;
-            this.labelProfession.Location = new System.Drawing.Point(21, 331);
-            this.labelProfession.Name = "labelProfession";
-            this.labelProfession.Size = new System.Drawing.Size(89, 20);
-            this.labelProfession.TabIndex = 10;
-            this.labelProfession.Text = "Profession";
-            // 
-            // textBoxProfession
-            // 
-            this.textBoxProfession.Location = new System.Drawing.Point(24, 354);
-            this.textBoxProfession.Name = "textBoxProfession";
-            this.textBoxProfession.Size = new System.Drawing.Size(265, 27);
-            this.textBoxProfession.TabIndex = 11;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 401);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(399, 20);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Short Term Captal Gains (Taxable At Normal Rates)";
-            // 
-            // textBoxSTGNM
-            // 
-            this.textBoxSTGNM.Location = new System.Drawing.Point(25, 422);
-            this.textBoxSTGNM.Name = "textBoxSTGNM";
-            this.textBoxSTGNM.Size = new System.Drawing.Size(265, 27);
-            this.textBoxSTGNM.TabIndex = 13;
-            this.textBoxSTGNM.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 470);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(324, 20);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Short Term Capital Gain - Taxable @ 15%";
-            // 
-            // textBoxLTS15
-            // 
-            this.textBoxLTS15.Location = new System.Drawing.Point(24, 496);
-            this.textBoxLTS15.Name = "textBoxLTS15";
-            this.textBoxLTS15.Size = new System.Drawing.Size(265, 27);
-            this.textBoxLTS15.TabIndex = 15;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 541);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(321, 20);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Long Term Capital Gain - Taxable @ 10%";
-            // 
-            // textBoxLTCG10
-            // 
-            this.textBoxLTCG10.Location = new System.Drawing.Point(24, 567);
-            this.textBoxLTCG10.Name = "textBoxLTCG10";
-            this.textBoxLTCG10.Size = new System.Drawing.Size(265, 27);
-            this.textBoxLTCG10.TabIndex = 17;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 613);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(321, 20);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "Long Term Capital Gain - Taxable @ 10%";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(113, 600);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(265, 27);
-            this.textBox4.TabIndex = 19;
+            this.buttonCalculateTax.Location = new System.Drawing.Point(734, 441);
+            this.buttonCalculateTax.Name = "buttonCalculateTax";
+            this.buttonCalculateTax.Size = new System.Drawing.Size(67, 181);
+            this.buttonCalculateTax.TabIndex = 2;
+            this.buttonCalculateTax.Text = "buttonCalculateTax";
+            this.buttonCalculateTax.UseVisualStyleBackColor = true;
+            this.buttonCalculateTax.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
@@ -699,6 +711,11 @@
             this.MenuNavBarPanel.ResumeLayout(false);
             this.panelHome.ResumeLayout(false);
             this.panelTaxProfille.ResumeLayout(false);
+            this.panelIncomeAndExpense.ResumeLayout(false);
+            this.tabControlIncomeDetails.ResumeLayout(false);
+            this.tabPageSalaryIncome.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panelDOB.ResumeLayout(false);
             this.panelDOB.PerformLayout();
             this.panelGender.ResumeLayout(false);
@@ -707,11 +724,6 @@
             this.panelMetro.PerformLayout();
             this.panelSalaried.ResumeLayout(false);
             this.panelSalaried.PerformLayout();
-            this.panelIncomeAndExpense.ResumeLayout(false);
-            this.tabControlIncomeDetails.ResumeLayout(false);
-            this.tabPageSalaryIncome.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -772,6 +784,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxLTCG10;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button buttonCalculateTax;
     }
 }
 
