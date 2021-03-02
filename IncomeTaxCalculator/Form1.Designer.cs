@@ -40,7 +40,6 @@
             this.panelFloatBar = new System.Windows.Forms.Panel();
             this.panelHome = new System.Windows.Forms.Panel();
             this.panelTaxProfille = new System.Windows.Forms.Panel();
-            this.panelIncomeAndExpense = new System.Windows.Forms.Panel();
             this.buttonSubmit = new System.Windows.Forms.Button();
             this.panelDOB = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -58,7 +57,6 @@
             this.radioButtonSalariedNo = new System.Windows.Forms.RadioButton();
             this.radioButtonSalariedYes = new System.Windows.Forms.RadioButton();
             this.labelSalaried = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabControlIncomeDetails = new System.Windows.Forms.TabControl();
             this.tabPageSalaryIncome = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -72,7 +70,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxLTCG10 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBoxLTS15 = new System.Windows.Forms.TextBox();
+            this.textBoxSTCG15 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxSTGNM = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -91,53 +89,60 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label28 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.textBox80EEEA = new System.Windows.Forms.TextBox();
+            this.textBox80U = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox80DD = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBoxOtherExemptions = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.textBoxFoodCoupons = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox80DDB = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox80EEB = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBoxSection24B = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox80D = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox80GGA = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox80GG = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBoxOthers = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBoxTuition = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBoxNPS = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBoxHousingLoanPrincipal = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBoxPPF = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBoxLifeInsurance = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBoxEPF = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBoxEquity = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBoxStandardDeduction = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.buttonGo = new System.Windows.Forms.Button();
+            this.panelIncomeAndExpense = new System.Windows.Forms.Panel();
+            this.buttonReset = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.textBoxOutputOldTax = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.textBoxOutputNewTaxRegime = new System.Windows.Forms.TextBox();
             this.PanelSideNav.SuspendLayout();
             this.SideNavIncomeTaxPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IncomeTaxImageBox)).BeginInit();
             this.MenuNavBarPanel.SuspendLayout();
-            this.panelHome.SuspendLayout();
             this.panelTaxProfille.SuspendLayout();
-            this.panelIncomeAndExpense.SuspendLayout();
             this.panelDOB.SuspendLayout();
             this.panelGender.SuspendLayout();
             this.panelMetro.SuspendLayout();
@@ -147,6 +152,9 @@
             this.panel1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panelIncomeAndExpense.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelSideNav
@@ -266,8 +274,6 @@
             // 
             // panelHome
             // 
-            this.panelHome.Controls.Add(this.panelTaxProfille);
-            this.panelHome.Controls.Add(this.button1);
             this.panelHome.Location = new System.Drawing.Point(231, 68);
             this.panelHome.Name = "panelHome";
             this.panelHome.Size = new System.Drawing.Size(839, 670);
@@ -275,24 +281,15 @@
             // 
             // panelTaxProfille
             // 
-            this.panelTaxProfille.Controls.Add(this.panelIncomeAndExpense);
             this.panelTaxProfille.Controls.Add(this.buttonSubmit);
             this.panelTaxProfille.Controls.Add(this.panelDOB);
             this.panelTaxProfille.Controls.Add(this.panelGender);
             this.panelTaxProfille.Controls.Add(this.panelMetro);
             this.panelTaxProfille.Controls.Add(this.panelSalaried);
-            this.panelTaxProfille.Location = new System.Drawing.Point(3, 3);
+            this.panelTaxProfille.Location = new System.Drawing.Point(231, 65);
             this.panelTaxProfille.Name = "panelTaxProfille";
-            this.panelTaxProfille.Size = new System.Drawing.Size(833, 664);
+            this.panelTaxProfille.Size = new System.Drawing.Size(839, 673);
             this.panelTaxProfille.TabIndex = 1;
-            // 
-            // panelIncomeAndExpense
-            // 
-            this.panelIncomeAndExpense.Controls.Add(this.tabControlIncomeDetails);
-            this.panelIncomeAndExpense.Location = new System.Drawing.Point(3, 3);
-            this.panelIncomeAndExpense.Name = "panelIncomeAndExpense";
-            this.panelIncomeAndExpense.Size = new System.Drawing.Size(833, 664);
-            this.panelIncomeAndExpense.TabIndex = 3;
             // 
             // buttonSubmit
             // 
@@ -321,10 +318,9 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.dateTimePicker1.Location = new System.Drawing.Point(18, 41);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(232, 28);
+            this.dateTimePicker1.Size = new System.Drawing.Size(256, 32);
             this.dateTimePicker1.TabIndex = 1;
             // 
             // labelDOB
@@ -496,24 +492,15 @@
             this.labelSalaried.TabIndex = 0;
             this.labelSalaried.Text = "Salaried ?";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(304, 255);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 97);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Home panel";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // tabControlIncomeDetails
             // 
             this.tabControlIncomeDetails.Controls.Add(this.tabPageSalaryIncome);
             this.tabControlIncomeDetails.Controls.Add(this.tabPage2);
             this.tabControlIncomeDetails.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControlIncomeDetails.Location = new System.Drawing.Point(181, 57);
+            this.tabControlIncomeDetails.Location = new System.Drawing.Point(199, 136);
             this.tabControlIncomeDetails.Name = "tabControlIncomeDetails";
             this.tabControlIncomeDetails.SelectedIndex = 0;
-            this.tabControlIncomeDetails.Size = new System.Drawing.Size(491, 528);
+            this.tabControlIncomeDetails.Size = new System.Drawing.Size(468, 466);
             this.tabControlIncomeDetails.TabIndex = 3;
             // 
             // tabPageSalaryIncome
@@ -524,7 +511,7 @@
             this.tabPageSalaryIncome.Location = new System.Drawing.Point(4, 30);
             this.tabPageSalaryIncome.Name = "tabPageSalaryIncome";
             this.tabPageSalaryIncome.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageSalaryIncome.Size = new System.Drawing.Size(483, 494);
+            this.tabPageSalaryIncome.Size = new System.Drawing.Size(460, 432);
             this.tabPageSalaryIncome.TabIndex = 0;
             this.tabPageSalaryIncome.Text = "Salary & Income";
             // 
@@ -541,7 +528,7 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.textBoxLTCG10);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBoxLTS15);
+            this.panel1.Controls.Add(this.textBoxSTCG15);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.textBoxSTGNM);
             this.panel1.Controls.Add(this.label1);
@@ -642,12 +629,12 @@
             this.label3.TabIndex = 16;
             this.label3.Text = "Long Term Capital Gain - Taxable @ 10%";
             // 
-            // textBoxLTS15
+            // textBoxSTCG15
             // 
-            this.textBoxLTS15.Location = new System.Drawing.Point(24, 496);
-            this.textBoxLTS15.Name = "textBoxLTS15";
-            this.textBoxLTS15.Size = new System.Drawing.Size(265, 27);
-            this.textBoxLTS15.TabIndex = 15;
+            this.textBoxSTCG15.Location = new System.Drawing.Point(24, 496);
+            this.textBoxSTCG15.Name = "textBoxSTCG15";
+            this.textBoxSTCG15.Size = new System.Drawing.Size(265, 27);
+            this.textBoxSTCG15.TabIndex = 15;
             // 
             // label2
             // 
@@ -777,7 +764,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 30);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(483, 494);
+            this.tabPage2.Size = new System.Drawing.Size(460, 432);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Excemptions & Deduction";
             // 
@@ -785,49 +772,49 @@
             // 
             this.panel2.AutoScroll = true;
             this.panel2.Controls.Add(this.label28);
-            this.panel2.Controls.Add(this.textBox27);
-            this.panel2.Controls.Add(this.textBox26);
+            this.panel2.Controls.Add(this.textBox80EEEA);
+            this.panel2.Controls.Add(this.textBox80U);
             this.panel2.Controls.Add(this.label27);
-            this.panel2.Controls.Add(this.textBox25);
+            this.panel2.Controls.Add(this.textBox80DD);
             this.panel2.Controls.Add(this.label26);
-            this.panel2.Controls.Add(this.textBox24);
+            this.panel2.Controls.Add(this.textBoxOtherExemptions);
             this.panel2.Controls.Add(this.label25);
-            this.panel2.Controls.Add(this.textBox23);
+            this.panel2.Controls.Add(this.textBoxFoodCoupons);
             this.panel2.Controls.Add(this.label24);
-            this.panel2.Controls.Add(this.textBox22);
+            this.panel2.Controls.Add(this.textBox80DDB);
             this.panel2.Controls.Add(this.label23);
-            this.panel2.Controls.Add(this.textBox21);
+            this.panel2.Controls.Add(this.textBox80EEB);
             this.panel2.Controls.Add(this.label22);
-            this.panel2.Controls.Add(this.textBox20);
+            this.panel2.Controls.Add(this.textBoxSection24B);
             this.panel2.Controls.Add(this.label21);
-            this.panel2.Controls.Add(this.textBox19);
+            this.panel2.Controls.Add(this.textBox80D);
             this.panel2.Controls.Add(this.label20);
-            this.panel2.Controls.Add(this.textBox18);
+            this.panel2.Controls.Add(this.textBox80GGA);
             this.panel2.Controls.Add(this.label19);
-            this.panel2.Controls.Add(this.textBox17);
+            this.panel2.Controls.Add(this.textBox80GG);
             this.panel2.Controls.Add(this.label18);
-            this.panel2.Controls.Add(this.textBox16);
+            this.panel2.Controls.Add(this.textBoxOthers);
             this.panel2.Controls.Add(this.label17);
-            this.panel2.Controls.Add(this.textBox15);
+            this.panel2.Controls.Add(this.textBoxTuition);
             this.panel2.Controls.Add(this.label16);
-            this.panel2.Controls.Add(this.textBox14);
+            this.panel2.Controls.Add(this.textBoxNPS);
             this.panel2.Controls.Add(this.label15);
-            this.panel2.Controls.Add(this.textBox13);
+            this.panel2.Controls.Add(this.textBoxHousingLoanPrincipal);
             this.panel2.Controls.Add(this.label14);
-            this.panel2.Controls.Add(this.textBox12);
+            this.panel2.Controls.Add(this.textBoxPPF);
             this.panel2.Controls.Add(this.label13);
-            this.panel2.Controls.Add(this.textBox11);
+            this.panel2.Controls.Add(this.textBoxLifeInsurance);
             this.panel2.Controls.Add(this.label12);
-            this.panel2.Controls.Add(this.textBox10);
+            this.panel2.Controls.Add(this.textBoxEPF);
             this.panel2.Controls.Add(this.label11);
             this.panel2.Controls.Add(this.label10);
-            this.panel2.Controls.Add(this.textBox9);
+            this.panel2.Controls.Add(this.textBoxEquity);
             this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.textBox8);
+            this.panel2.Controls.Add(this.textBoxStandardDeduction);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Location = new System.Drawing.Point(22, 18);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(431, 452);
+            this.panel2.Size = new System.Drawing.Size(419, 400);
             this.panel2.TabIndex = 0;
             // 
             // label28
@@ -839,19 +826,19 @@
             this.label28.TabIndex = 41;
             this.label28.Text = "80U";
             // 
-            // textBox27
+            // textBox80EEEA
             // 
-            this.textBox27.Location = new System.Drawing.Point(29, 1388);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(265, 28);
-            this.textBox27.TabIndex = 40;
+            this.textBox80EEEA.Location = new System.Drawing.Point(29, 1388);
+            this.textBox80EEEA.Name = "textBox80EEEA";
+            this.textBox80EEEA.Size = new System.Drawing.Size(265, 28);
+            this.textBox80EEEA.TabIndex = 40;
             // 
-            // textBox26
+            // textBox80U
             // 
-            this.textBox26.Location = new System.Drawing.Point(29, 1462);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(265, 28);
-            this.textBox26.TabIndex = 39;
+            this.textBox80U.Location = new System.Drawing.Point(29, 1462);
+            this.textBox80U.Name = "textBox80U";
+            this.textBox80U.Size = new System.Drawing.Size(265, 28);
+            this.textBox80U.TabIndex = 39;
             // 
             // label27
             // 
@@ -862,12 +849,12 @@
             this.label27.TabIndex = 38;
             this.label27.Text = "800EEA";
             // 
-            // textBox25
+            // textBox80DD
             // 
-            this.textBox25.Location = new System.Drawing.Point(29, 1317);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(265, 28);
-            this.textBox25.TabIndex = 37;
+            this.textBox80DD.Location = new System.Drawing.Point(29, 1317);
+            this.textBox80DD.Name = "textBox80DD";
+            this.textBox80DD.Size = new System.Drawing.Size(265, 28);
+            this.textBox80DD.TabIndex = 37;
             // 
             // label26
             // 
@@ -878,12 +865,12 @@
             this.label26.TabIndex = 36;
             this.label26.Text = "80DD";
             // 
-            // textBox24
+            // textBoxOtherExemptions
             // 
-            this.textBox24.Location = new System.Drawing.Point(29, 1244);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(265, 28);
-            this.textBox24.TabIndex = 35;
+            this.textBoxOtherExemptions.Location = new System.Drawing.Point(29, 1244);
+            this.textBoxOtherExemptions.Name = "textBoxOtherExemptions";
+            this.textBoxOtherExemptions.Size = new System.Drawing.Size(265, 28);
+            this.textBoxOtherExemptions.TabIndex = 35;
             // 
             // label25
             // 
@@ -894,12 +881,12 @@
             this.label25.TabIndex = 34;
             this.label25.Text = "Other Exemptions";
             // 
-            // textBox23
+            // textBoxFoodCoupons
             // 
-            this.textBox23.Location = new System.Drawing.Point(29, 1167);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(265, 28);
-            this.textBox23.TabIndex = 33;
+            this.textBoxFoodCoupons.Location = new System.Drawing.Point(29, 1167);
+            this.textBoxFoodCoupons.Name = "textBoxFoodCoupons";
+            this.textBoxFoodCoupons.Size = new System.Drawing.Size(265, 28);
+            this.textBoxFoodCoupons.TabIndex = 33;
             // 
             // label24
             // 
@@ -910,12 +897,12 @@
             this.label24.TabIndex = 32;
             this.label24.Text = "Food Coupons";
             // 
-            // textBox22
+            // textBox80DDB
             // 
-            this.textBox22.Location = new System.Drawing.Point(29, 1096);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(265, 28);
-            this.textBox22.TabIndex = 31;
+            this.textBox80DDB.Location = new System.Drawing.Point(29, 1096);
+            this.textBox80DDB.Name = "textBox80DDB";
+            this.textBox80DDB.Size = new System.Drawing.Size(265, 28);
+            this.textBox80DDB.TabIndex = 31;
             // 
             // label23
             // 
@@ -926,12 +913,12 @@
             this.label23.TabIndex = 30;
             this.label23.Text = "80DDB";
             // 
-            // textBox21
+            // textBox80EEB
             // 
-            this.textBox21.Location = new System.Drawing.Point(29, 1026);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(265, 28);
-            this.textBox21.TabIndex = 29;
+            this.textBox80EEB.Location = new System.Drawing.Point(29, 1026);
+            this.textBox80EEB.Name = "textBox80EEB";
+            this.textBox80EEB.Size = new System.Drawing.Size(265, 28);
+            this.textBox80EEB.TabIndex = 29;
             // 
             // label22
             // 
@@ -942,12 +929,12 @@
             this.label22.TabIndex = 28;
             this.label22.Text = "80EEB";
             // 
-            // textBox20
+            // textBoxSection24B
             // 
-            this.textBox20.Location = new System.Drawing.Point(29, 953);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(265, 28);
-            this.textBox20.TabIndex = 27;
+            this.textBoxSection24B.Location = new System.Drawing.Point(29, 953);
+            this.textBoxSection24B.Name = "textBoxSection24B";
+            this.textBoxSection24B.Size = new System.Drawing.Size(265, 28);
+            this.textBoxSection24B.TabIndex = 27;
             // 
             // label21
             // 
@@ -958,12 +945,12 @@
             this.label21.TabIndex = 26;
             this.label21.Text = "Section 24(B)";
             // 
-            // textBox19
+            // textBox80D
             // 
-            this.textBox19.Location = new System.Drawing.Point(29, 879);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(265, 28);
-            this.textBox19.TabIndex = 25;
+            this.textBox80D.Location = new System.Drawing.Point(29, 879);
+            this.textBox80D.Name = "textBox80D";
+            this.textBox80D.Size = new System.Drawing.Size(265, 28);
+            this.textBox80D.TabIndex = 25;
             // 
             // label20
             // 
@@ -974,12 +961,12 @@
             this.label20.TabIndex = 24;
             this.label20.Text = "80D";
             // 
-            // textBox18
+            // textBox80GGA
             // 
-            this.textBox18.Location = new System.Drawing.Point(29, 809);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(265, 28);
-            this.textBox18.TabIndex = 23;
+            this.textBox80GGA.Location = new System.Drawing.Point(29, 809);
+            this.textBox80GGA.Name = "textBox80GGA";
+            this.textBox80GGA.Size = new System.Drawing.Size(265, 28);
+            this.textBox80GGA.TabIndex = 23;
             // 
             // label19
             // 
@@ -990,28 +977,28 @@
             this.label19.TabIndex = 22;
             this.label19.Text = "80GGA";
             // 
-            // textBox17
+            // textBox80GG
             // 
-            this.textBox17.Location = new System.Drawing.Point(29, 738);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(265, 28);
-            this.textBox17.TabIndex = 21;
+            this.textBox80GG.Location = new System.Drawing.Point(29, 738);
+            this.textBox80GG.Name = "textBox80GG";
+            this.textBox80GG.Size = new System.Drawing.Size(265, 28);
+            this.textBox80GG.TabIndex = 21;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(25, 714);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(58, 21);
+            this.label18.Size = new System.Drawing.Size(143, 21);
             this.label18.TabIndex = 20;
-            this.label18.Text = "80GG";
+            this.label18.Text = "80GG Rent Paid";
             // 
-            // textBox16
+            // textBoxOthers
             // 
-            this.textBox16.Location = new System.Drawing.Point(29, 668);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(265, 28);
-            this.textBox16.TabIndex = 19;
+            this.textBoxOthers.Location = new System.Drawing.Point(29, 668);
+            this.textBoxOthers.Name = "textBoxOthers";
+            this.textBoxOthers.Size = new System.Drawing.Size(265, 28);
+            this.textBoxOthers.TabIndex = 19;
             // 
             // label17
             // 
@@ -1022,12 +1009,12 @@
             this.label17.TabIndex = 18;
             this.label17.Text = "Others";
             // 
-            // textBox15
+            // textBoxTuition
             // 
-            this.textBox15.Location = new System.Drawing.Point(29, 590);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(265, 28);
-            this.textBox15.TabIndex = 17;
+            this.textBoxTuition.Location = new System.Drawing.Point(29, 590);
+            this.textBoxTuition.Name = "textBoxTuition";
+            this.textBoxTuition.Size = new System.Drawing.Size(265, 28);
+            this.textBoxTuition.TabIndex = 17;
             // 
             // label16
             // 
@@ -1038,12 +1025,12 @@
             this.label16.TabIndex = 16;
             this.label16.Text = "Tuition Fees";
             // 
-            // textBox14
+            // textBoxNPS
             // 
-            this.textBox14.Location = new System.Drawing.Point(29, 517);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(265, 28);
-            this.textBox14.TabIndex = 15;
+            this.textBoxNPS.Location = new System.Drawing.Point(29, 517);
+            this.textBoxNPS.Name = "textBoxNPS";
+            this.textBoxNPS.Size = new System.Drawing.Size(265, 28);
+            this.textBoxNPS.TabIndex = 15;
             // 
             // label15
             // 
@@ -1054,12 +1041,12 @@
             this.label15.TabIndex = 14;
             this.label15.Text = "National Pension Scheme";
             // 
-            // textBox13
+            // textBoxHousingLoanPrincipal
             // 
-            this.textBox13.Location = new System.Drawing.Point(29, 444);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(265, 28);
-            this.textBox13.TabIndex = 13;
+            this.textBoxHousingLoanPrincipal.Location = new System.Drawing.Point(29, 444);
+            this.textBoxHousingLoanPrincipal.Name = "textBoxHousingLoanPrincipal";
+            this.textBoxHousingLoanPrincipal.Size = new System.Drawing.Size(265, 28);
+            this.textBoxHousingLoanPrincipal.TabIndex = 13;
             // 
             // label14
             // 
@@ -1070,12 +1057,12 @@
             this.label14.TabIndex = 12;
             this.label14.Text = "Housing Loan Principal";
             // 
-            // textBox12
+            // textBoxPPF
             // 
-            this.textBox12.Location = new System.Drawing.Point(29, 371);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(265, 28);
-            this.textBox12.TabIndex = 11;
+            this.textBoxPPF.Location = new System.Drawing.Point(29, 371);
+            this.textBoxPPF.Name = "textBoxPPF";
+            this.textBoxPPF.Size = new System.Drawing.Size(265, 28);
+            this.textBoxPPF.TabIndex = 11;
             // 
             // label13
             // 
@@ -1086,12 +1073,12 @@
             this.label13.TabIndex = 10;
             this.label13.Text = "Public Provident fund";
             // 
-            // textBox11
+            // textBoxLifeInsurance
             // 
-            this.textBox11.Location = new System.Drawing.Point(29, 296);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(265, 28);
-            this.textBox11.TabIndex = 9;
+            this.textBoxLifeInsurance.Location = new System.Drawing.Point(29, 296);
+            this.textBoxLifeInsurance.Name = "textBoxLifeInsurance";
+            this.textBoxLifeInsurance.Size = new System.Drawing.Size(265, 28);
+            this.textBoxLifeInsurance.TabIndex = 9;
             // 
             // label12
             // 
@@ -1102,12 +1089,12 @@
             this.label12.TabIndex = 8;
             this.label12.Text = "Life Insurance";
             // 
-            // textBox10
+            // textBoxEPF
             // 
-            this.textBox10.Location = new System.Drawing.Point(29, 223);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(265, 28);
-            this.textBox10.TabIndex = 7;
+            this.textBoxEPF.Location = new System.Drawing.Point(29, 223);
+            this.textBoxEPF.Name = "textBoxEPF";
+            this.textBoxEPF.Size = new System.Drawing.Size(265, 28);
+            this.textBoxEPF.TabIndex = 7;
             // 
             // label11
             // 
@@ -1127,12 +1114,12 @@
             this.label10.TabIndex = 5;
             this.label10.Text = "Equity Linked Savings Scheme";
             // 
-            // textBox9
+            // textBoxEquity
             // 
-            this.textBox9.Location = new System.Drawing.Point(29, 153);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(265, 28);
-            this.textBox9.TabIndex = 4;
+            this.textBoxEquity.Location = new System.Drawing.Point(29, 153);
+            this.textBoxEquity.Name = "textBoxEquity";
+            this.textBoxEquity.Size = new System.Drawing.Size(265, 28);
+            this.textBoxEquity.TabIndex = 4;
             // 
             // label9
             // 
@@ -1143,12 +1130,12 @@
             this.label9.TabIndex = 3;
             this.label9.Text = "80C";
             // 
-            // textBox8
+            // textBoxStandardDeduction
             // 
-            this.textBox8.Location = new System.Drawing.Point(29, 46);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(265, 28);
-            this.textBox8.TabIndex = 2;
+            this.textBoxStandardDeduction.Location = new System.Drawing.Point(29, 46);
+            this.textBoxStandardDeduction.Name = "textBoxStandardDeduction";
+            this.textBoxStandardDeduction.Size = new System.Drawing.Size(265, 28);
+            this.textBoxStandardDeduction.TabIndex = 2;
             // 
             // label8
             // 
@@ -1159,11 +1146,107 @@
             this.label8.TabIndex = 0;
             this.label8.Text = "Standard Deduction";
             // 
+            // buttonGo
+            // 
+            this.buttonGo.Location = new System.Drawing.Point(592, 614);
+            this.buttonGo.Name = "buttonGo";
+            this.buttonGo.Size = new System.Drawing.Size(75, 32);
+            this.buttonGo.TabIndex = 26;
+            this.buttonGo.Text = "Go";
+            this.buttonGo.UseVisualStyleBackColor = true;
+            this.buttonGo.Click += new System.EventHandler(this.buttonGo_Click);
+            // 
+            // panelIncomeAndExpense
+            // 
+            this.panelIncomeAndExpense.Controls.Add(this.textBoxOutputNewTaxRegime);
+            this.panelIncomeAndExpense.Controls.Add(this.label30);
+            this.panelIncomeAndExpense.Controls.Add(this.pictureBox2);
+            this.panelIncomeAndExpense.Controls.Add(this.textBoxOutputOldTax);
+            this.panelIncomeAndExpense.Controls.Add(this.label29);
+            this.panelIncomeAndExpense.Controls.Add(this.pictureBox1);
+            this.panelIncomeAndExpense.Controls.Add(this.buttonReset);
+            this.panelIncomeAndExpense.Controls.Add(this.buttonGo);
+            this.panelIncomeAndExpense.Controls.Add(this.tabControlIncomeDetails);
+            this.panelIncomeAndExpense.Location = new System.Drawing.Point(231, 62);
+            this.panelIncomeAndExpense.Name = "panelIncomeAndExpense";
+            this.panelIncomeAndExpense.Size = new System.Drawing.Size(839, 676);
+            this.panelIncomeAndExpense.TabIndex = 3;
+            // 
+            // buttonReset
+            // 
+            this.buttonReset.Location = new System.Drawing.Point(511, 614);
+            this.buttonReset.Name = "buttonReset";
+            this.buttonReset.Size = new System.Drawing.Size(75, 32);
+            this.buttonReset.TabIndex = 27;
+            this.buttonReset.Text = "Reset";
+            this.buttonReset.UseVisualStyleBackColor = true;
+            this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(75, 27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(51, 53);
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(25, 83);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(163, 23);
+            this.label29.TabIndex = 29;
+            this.label29.Text = "Old Tax Regime";
+            // 
+            // textBoxOutputOldTax
+            // 
+            this.textBoxOutputOldTax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.textBoxOutputOldTax.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxOutputOldTax.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
+            this.textBoxOutputOldTax.Location = new System.Drawing.Point(132, 39);
+            this.textBoxOutputOldTax.Name = "textBoxOutputOldTax";
+            this.textBoxOutputOldTax.Size = new System.Drawing.Size(139, 25);
+            this.textBoxOutputOldTax.TabIndex = 30;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(722, 27);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(51, 53);
+            this.pictureBox2.TabIndex = 31;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(673, 83);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(173, 23);
+            this.label30.TabIndex = 32;
+            this.label30.Text = "New Tax Regime";
+            // 
+            // textBoxOutputNewTaxRegime
+            // 
+            this.textBoxOutputNewTaxRegime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.textBoxOutputNewTaxRegime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxOutputNewTaxRegime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
+            this.textBoxOutputNewTaxRegime.Location = new System.Drawing.Point(577, 39);
+            this.textBoxOutputNewTaxRegime.Name = "textBoxOutputNewTaxRegime";
+            this.textBoxOutputNewTaxRegime.Size = new System.Drawing.Size(139, 25);
+            this.textBoxOutputNewTaxRegime.TabIndex = 33;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1070, 738);
+            this.Controls.Add(this.panelIncomeAndExpense);
+            this.Controls.Add(this.panelTaxProfille);
             this.Controls.Add(this.panelHome);
             this.Controls.Add(this.panelFloatBar);
             this.Controls.Add(this.MenuNavBarPanel);
@@ -1178,9 +1261,7 @@
             this.SideNavIncomeTaxPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.IncomeTaxImageBox)).EndInit();
             this.MenuNavBarPanel.ResumeLayout(false);
-            this.panelHome.ResumeLayout(false);
             this.panelTaxProfille.ResumeLayout(false);
-            this.panelIncomeAndExpense.ResumeLayout(false);
             this.panelDOB.ResumeLayout(false);
             this.panelDOB.PerformLayout();
             this.panelGender.ResumeLayout(false);
@@ -1196,6 +1277,10 @@
             this.tabPage2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panelIncomeAndExpense.ResumeLayout(false);
+            this.panelIncomeAndExpense.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1212,8 +1297,8 @@
         private System.Windows.Forms.Button buttonHome;
         private System.Windows.Forms.Button buttonMinimize;
         private System.Windows.Forms.Panel panelHome;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panelTaxProfille;
+        private System.Windows.Forms.Button buttonSubmit;
         private System.Windows.Forms.Panel panelDOB;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label labelDOB;
@@ -1230,8 +1315,6 @@
         private System.Windows.Forms.RadioButton radioButtonSalariedNo;
         private System.Windows.Forms.RadioButton radioButtonSalariedYes;
         private System.Windows.Forms.Label labelSalaried;
-        private System.Windows.Forms.Button buttonSubmit;
-        private System.Windows.Forms.Panel panelIncomeAndExpense;
         private System.Windows.Forms.TabControl tabControlIncomeDetails;
         private System.Windows.Forms.TabPage tabPageSalaryIncome;
         private System.Windows.Forms.Panel panel1;
@@ -1245,7 +1328,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxLTCG10;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBoxLTS15;
+        private System.Windows.Forms.TextBox textBoxSTCG15;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxSTGNM;
         private System.Windows.Forms.Label label1;
@@ -1264,46 +1347,55 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox textBox80EEEA;
+        private System.Windows.Forms.TextBox textBox80U;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox textBox80DD;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textBoxOtherExemptions;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox textBoxFoodCoupons;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox80DDB;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox80EEB;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBoxSection24B;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox80D;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox80GGA;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox80GG;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBoxOthers;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBoxTuition;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBoxNPS;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBoxHousingLoanPrincipal;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBoxPPF;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBoxLifeInsurance;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBoxEPF;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBoxEquity;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBoxStandardDeduction;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button buttonGo;
+        private System.Windows.Forms.Panel panelIncomeAndExpense;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.TextBox textBoxOutputOldTax;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox textBoxOutputNewTaxRegime;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
