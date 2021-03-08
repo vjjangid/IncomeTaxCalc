@@ -31,7 +31,7 @@ namespace IncomeTaxCalculator
 
         private void InitialCustomization()
         {
-            panelHome.BackgroundImage = Image.FromFile("E:\\IncomeTaxCalculator\\Images\\Croped2975891.jpg");
+            panelHome.BackgroundImage = Image.FromFile(@"C:\Users\z0049n3x\source\repos\IncomeTaxCalc\IncomeTaxCalculator\Images\Croped2975891.jpg");
             panelHome.Visible = true;
             panelTaxProfille.Visible = false;
             panelIncomeAndExpense.Visible = false;
